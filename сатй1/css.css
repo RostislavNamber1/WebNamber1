@@ -2,11 +2,17 @@
   padding: 0;
   margin: 0;
   text-decoration: none;
-
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
 }
 body{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background: #F9F9F9;
 }
 header{
@@ -15,9 +21,16 @@ header{
   background-color: #EEEFF1;
 }
 .meny{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100%;
   height: 10%;
   display: flex;
@@ -25,11 +38,17 @@ header{
 
 }
 .logo{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-right: auto;
-  margin-left: 15%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 10%;
   width: 96px;
   height: 60px;
   font-family: Revalia;
@@ -38,9 +57,16 @@ header{
 }
 nav{
   margin-right: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 a{
   font-family: Roboto;
@@ -57,12 +83,38 @@ a:hover{
   border: none;
   background: #E5E5E5;
   color: #000;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
+h2{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  text-align: center;
+  color: #000000;
+}
+p{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #727272;
+}
 .d1{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100%;
   height: auto;
   margin-top: 140px;
@@ -96,6 +148,7 @@ a:hover{
   opacity: 2;
 }
 .p1{
+  text-align: left;
   margin-top: 60px;
   margin-bottom: 60px;
   width: 540px;
@@ -108,10 +161,19 @@ a:hover{
 .my{
     width: 100%;
     height: 366px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     color: #727272;
 
 }
@@ -142,18 +204,36 @@ a:hover{
   width: 100%;
   height: 250px;
   background-color: #34547A;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .star1{
   width: 141px;
   height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-left: 49px;
   margin-right: 49px;
 }
@@ -163,8 +243,13 @@ a:hover{
   height: 50px;
 }
 .text{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .text1{
   font-family: Roboto;
@@ -186,16 +271,34 @@ a:hover{
 .skill{
   width: 100%;
   height: 653px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .slillblok{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 1150px;
   height: 450px;
 }
@@ -224,4 +327,210 @@ a:hover{
   font-size: 16px;
   line-height: 26px;
   color: #727272;
+}
+.progress{
+  width: 80%;
+  height: 20px;
+  background-color: #8FBC8F;
+  z-index: 1;
+}
+.progress1{
+  width: 80%;
+  height: 20px;
+  background-color: #008B8B;
+  z-index: 2;
+}
+.progress2{
+  width: 60%;
+  height: 20px;
+  background-color: #008B8B;
+  z-index: 2;
+}
+.progress3{
+  width: 90%;
+  height: 20px;
+  background-color: #008B8B;
+  z-index: 2;
+}
+.progress4{
+  width: 30%;
+  height: 20px;
+  background-color: #008B8B;
+  z-index: 2;
+}
+.vork{
+  width: 100%;
+  height: 1000px;
+  background-color: #EEEFF1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.vorktext{
+  width: 540px;
+  height: auto;
+}
+.vorkvideo{
+  margin-top: 57px;
+  overflow: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1110px;
+  height: 600px;
+  background-image: url("Rectangle 5.png");
+  }
+.Vector{
+  width: 100px;
+  height: 100px;
+}
+.kalah{
+  display: block;
+  width: 100%;
+  height: 1280px;
+}
+.fotos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: auto;
+  height: 480px;
+  margin-top: 28px;
+
+}
+.fotos2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: auto;
+  height: 480px;
+  }
+.foto1{
+  width: 25%;
+  height: 480px;
+  background-image: url("Rectangle 7.jpg");
+  background-size: cover;
+}
+.foto2{
+  width: 25%;
+  height: 480px;
+  background-image: url("Rectangle 7.3.jpg");
+  background-size: cover;
+}
+.kalah2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 72px;
+  width: 100%;
+  height: 292px;
+  }
+.makrosoft{
+  width: 255px;
+  height: 100px;
+  margin-right: 30px;
+  background-image: url("Rectangle 9.3.png");
+  background-size: cover;
+}
+.forma{
+  width: 100%;
+  height: 762px;
+  background-color: #EEEFF1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.f1{
+  width: 540px;
+  height: 562px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+input{
+  padding: 2px;
+  width: 47%;
+  height: auto;
+  border: none;
+}
+input:active,
+input:hover,
+input:focus {
+  outline: none;
+  border: none;
+}
+textarea,
+textarea:hover,
+textarea:active,
+textarea:focus{
+  padding: 2%;
+  outline: none;
+  border: none;
+}
+.knopka{
+  color: #FFFFFF;
+  margin-top: 50px;
+  margin-left: 174px;
+  border: none;
+  width: 190px;
+  height: 55px;
+  background: #34547A;
+}
+.formaaut{
+  width: 540px;
+  height: 175px;
+}
+footer{
+  width: 100%;
+  height: 151px;
+  background-color: #34547A;
+}
+.autor{
+  margin-top: 50px;
+  color: #FFFFFF;
+  display: block;
+  float: left;
+  margin-left: 20%;
+  }
+.autor h2{
+  color: #FFFFFF;
+  text-align: left;
+  font-weight: 500;
+  font-size: 21px;
+  }
+.autor p{
+  color: #FFFFFF;
+  text-align: left;
+  font-weight: normal;
+  font-size: 13px;
+}
+.icon{
+  display: flex;
+  flex-direction: row;
+  float: right;
+  width: 175px;
+  height: 40px;
+  margin-right: 20%;
+  margin-top: 64.59px;
+}
+.iconvk{
+  width: 43.75px;
+  height: 22.82px;
+  margin-left: 21.87px;
 }
